@@ -109,22 +109,24 @@
     height: 30%;
 }
 
-.presentation .home__title_primary,
-.presentation .home__title_secondary {
-    font-size: 30px;
-    width: 100%;
+.home__title_primary,
+.home__title_secondary,
+.home__title {
     font-family: 'Poppins', sans-serif;
     text-align: center;
-    color: #fff;
+    width: 100%;
+}
+
+.home__title_primary,
+.home__title_secondary {
+    font-size: 30px;
     line-height: 10px;
+    color: #fff;
 }
 
 .presentation .home__title {
     font-size: 38px;
     font-weight: bold;
-    width: 100%;
-    font-family: 'Poppins', sans-serif;
-    text-align: center;
     color: #219ebc;
 }
 
@@ -147,7 +149,7 @@
     overflow: hidden;
 }
 
-.desc {
+.description {
     width: 50%;
     height: 600px;
     float: left;
@@ -159,28 +161,28 @@
     float: left;
 }
 
-.desc p {
+.description p {
     font-family: 'Poppins', sans-serif;
 }
 
-.desc .title {
+.description__title {
     font-size: 34px;
     font-weight: bold;
 }
 
-.desc .name {
+.description__subtitle {
     font-size: 20px;
     font-weight: bold;
 }
 
-.desc .texto {
+.description__content {
     width: 80%;
     text-align: justify;
     font-size: 16px;
     line-height: 30px;
 }
 
-.desc .botonCV {
+.CV__button {
     width: 35%;
     height: 50px;
     margin-top: 15px;
@@ -189,11 +191,11 @@
     background-color: #3464d4;
 }
 
-.desc .botonCV:hover {
+.CV__button:hover {
     background-color: #495057;
 }
 
-.desc .botonCV .textButton {
+.CV__button .textButton {
     color: #fff;
     font-size: 16px;
     padding-top: 12px;
@@ -202,7 +204,7 @@
     text-decoration: none;
 }
 
-.desc .botonCV .textButton .icon {
+.textButton .icon {
     margin-top: 2px;
     margin-right: 8px;
 }
@@ -210,13 +212,13 @@
 
 /*Skills*/
 
-.skills .mySkills {
+.mySkills {
     margin-top: 10%;
     font-size: 20px;
     font-weight: bold;
 }
 
-.skills .images1 {
+.skills__div {
     width: 100%;
     height: 35%;
     margin-top: 8%;
@@ -224,47 +226,35 @@
     justify-content: center;
 }
 
-.skills .images1 .html,
-.skills .images1 .css,
-.skills .images1 .js {
+.skills__element {
     width: 30%;
     height: 90%;
     margin: 10px;
 }
 
-.skills .images2 {
+.skills__div2 {
     width: 100%;
     height: 35%;
     display: flex;
     justify-content: center;
 }
 
-.skills .images2 .git,
-.skills .images2 .github {
-    width: 30%;
-    height: 90%;
-    margin: 10px;
-}
-
-.skills .images1 .html .logo,
-.skills .images1 .css .logo,
-.skills .images1 .js .logo {
+.logo,
+.logo,
+.logo {
     width: 100%;
     height: 90%;
 }
 
-.skills .images2 .git .logo,
-.skills .images2 .github .logo {
+.logo,
+.logo {
     width: 100%;
     height: 90%;
     padding: 10%;
 }
 
-.skills .images1 .html .name,
-.skills .images1 .css .name,
-.skills .images1 .js .name,
-.skills .images2 .git .name,
-.skills .images2 .github .name {
+.skills .name,
+.action__net {
     width: 100%;
     font-family: 'Poppins', sans-serif;
     text-align: center;
@@ -281,26 +271,12 @@
     margin-top: 60px;
 }
 
-.descr p {
-    font-family: 'Poppins', sans-serif;
-}
-
-.descr .title {
-    font-size: 34px;
-    font-weight: bold;
-}
-
-.descr .name {
-    font-size: 20px;
-    font-weight: bold;
-}
-
-.trabajos .descr {
+.infoSection {
     width: 100%;
     height: 18%;
 }
 
-.trabajos .projects {
+.projects {
     width: 100%;
     height: 80%;
     margin-top: 5%;
@@ -308,18 +284,11 @@
     justify-content: center;
 }
 
-.trabajos .projects .first,
-.trabajos .projects .sec,
-.trabajos .projects .third {
+.first,
+.sec,
+.third {
     width: 33.3%;
     height: 90%;
-}
-
-.trabajos .projects .first .imgPro,
-.trabajos .projects .sec .imgPro,
-.trabajos .projects .third .imgPro {
-    width: 100%;
-    height: 100%;
 }
 
 
@@ -331,21 +300,22 @@
     margin-top: 200px;
 }
 
-.contacto .redes {
+.contacts {
     width: 100%;
     height: 80%;
+    margin-top: 5%;
     display: flex;
     justify-content: center;
 }
 
-.contacto .redes .space {
+.space {
     width: 20%;
     height: 85%;
 }
 
-.contacto .redes .gmail,
-.contacto .redes .migit,
-.contacto .redes .linked {
+.gmail,
+.migit,
+.linked {
     width: 20%;
     height: 85%;
     margin: 2px;
@@ -353,59 +323,45 @@
     vertical-align: top;
 }
 
-.contacto .redes .gmail .imagen,
-.contacto .redes .migit .imagen,
-.contacto .redes .linked .imagen {
+.img__net {
     display: flex;
     justify-content: center;
 }
 
-.contacto .redes .gmail .linkRed,
-.contacto .redes .migit .linkRed,
-.contacto .redes .linked .linkRed {
+.link__net {
     font-size: 70px;
     text-align: center;
 }
 
-.contacto .redes .gmail .logoRed {
+.contacto .contacts .gmail .link__net {
     color: #BB001B;
 }
 
-.contacto .redes .migit .logoRed {
+.contacto .contacts .migit .link__net {
     color: #171515;
 }
 
-.contacto .redes .linked .logoRed {
+.contacto .contacts .linked .link__net {
     color: #0072b1;
 }
 
-.contacto .redes .gmail .logoRed:hover,
-.contacto .redes .migit .logoRed:hover,
-.contacto .redes .linked .logoRed:hover {
+.contacto .contacts .gmail .link__net:hover,
+.contacto .contacts .migit .link__net:hover,
+.contacto .contacts .linked .link__net:hover {
     transition-duration: 0.5s;
     color: #495057;
-}
-
-.contacto .redes .gmail .name,
-.contacto .redes .migit .name,
-.contacto .redes .linked .name {
-    width: 100%;
-    font-family: 'Poppins', sans-serif;
-    text-align: center;
-    font-size: 16px;
-    line-height: 30px;
 }
 
 
 /*Pie de página*/
 
-.piePag {
+.footer {
     width: 100%;
     height: 70px;
     margin-top: 90px;
 }
 
-.piePag .copyr {
+.footer .copy__r {
     font-size: 14px;
     font-family: 'Poppins', sans-serif;
     text-align: center;
