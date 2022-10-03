@@ -291,6 +291,13 @@
     height: 90%;
 }
 
+.portfolio-item__subheader {
+    font-size: 18px;
+    color: #343a40;
+    opacity: .8;
+    padding-bottom: 2px;
+}
+
 
 /*Contacto*/
 
