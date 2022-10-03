@@ -278,8 +278,13 @@
 
 .projects {
     width: 100%;
-    height: 80%;
+    height: 700px;
     margin-top: 5%;
+}
+
+.projects__row {
+    width: 100%;
+    height: 50%;
     display: flex;
     justify-content: center;
 }
@@ -288,7 +293,7 @@
 .sec,
 .third {
     width: 33.3%;
-    height: 90%;
+    height: 100%;
 }
 
 .portfolio-item__subheader {
@@ -304,7 +309,7 @@
 .contacto {
     width: 100%;
     height: 300px;
-    margin-top: 200px;
+    margin-top: 480px;
 }
 
 .contacts {
