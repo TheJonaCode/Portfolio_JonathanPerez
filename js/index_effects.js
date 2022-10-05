@@ -5,9 +5,9 @@ $(document).ready(function() {
 
     //NAVBAR SCROLL MENU
     var about = $('#miAbout').offset().top,
+        habilidades = $('#misHabilidades').offset().top,
         trabajos = $('#miTrabajo').offset().top,
         contacto = $('#miContacto').offset().top;
-    habilidades = $('#misHabilidades').offset().top;
 
     $('#btn-about').on('click', function(e) {
         e.preventDefault();
@@ -19,14 +19,14 @@ $(document).ready(function() {
     $('#btn-habilidades').on('click', function(e) {
         e.preventDefault();
         $('html, body').animate({
-            scrollTop: habilidades - 60
-        }, 400);
+            scrollTop: habilidades - 150
+        }, 500);
     });
 
     $('#btn-trabajos').on('click', function(e) {
         e.preventDefault();
         $('html, body').animate({
-            scrollTop: trabajos - 50
+            scrollTop: trabajos - 110
         }, 500);
     });
 
