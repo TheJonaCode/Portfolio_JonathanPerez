@@ -111,7 +111,13 @@
 
 .home__title_primary,
 .home__title_secondary,
-.home__title {
+.home__title,
+
+/*Habilidades*/
+
+.skill__icon,
+.skill__title,
+.skill__description {
     font-family: 'Poppins', sans-serif;
     text-align: center;
     width: 100%;
@@ -263,12 +269,59 @@
 }
 
 
+/*Habilidades*/
+
+.skills {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.habilidades {
+    width: 100%;
+    height: 220px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.skill__element {
+    width: 23%;
+    height: 220px;
+    margin-top: 15px;
+}
+
+.skill__icon {
+    font-size: 34px;
+}
+
+.skill__title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.skill__code {
+    color: #073b4c;
+}
+
+.skill__design {
+    color: #06d6a0;
+}
+
+.skill__db {
+    color: #118ab2;
+}
+
+.skill__tec {
+    color: #ef476f;
+}
+
+
 /*Trabajos*/
 
 .trabajos {
     width: 100%;
     height: 500px;
-    margin-top: 60px;
+    margin-top: 120px;
 }
 
 .infoSection {
@@ -359,7 +412,14 @@
 
 .contacto .contacts .gmail .link__net:hover,
 .contacto .contacts .migit .link__net:hover,
-.contacto .contacts .linked .link__net:hover {
+.contacto .contacts .linked .link__net:hover,
+
+/*Habilidades*/
+
+.skill__code:hover,
+.skill__design:hover,
+.skill__db:hover,
+.skill__tec:hover {
     transition-duration: 0.5s;
     color: #495057;
 }
