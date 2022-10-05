@@ -251,6 +251,7 @@
     width: 100%;
     height: 90%;
     padding: 10%;
+    opacity: 0.8;
 }
 
 .knowledge__div_2 .knowledge_logo {
@@ -259,12 +260,10 @@
     padding: 10%;
 }
 
-.action__net {
-    width: 100%;
-    font-family: 'Poppins', sans-serif;
-    text-align: center;
-    font-size: 16px;
-    line-height: 30px;
+.knowledge_logo:hover {
+    opacity: 1;
+    transition-duration: 0.5s;
+    padding: 0;
 }
 
 
@@ -272,7 +271,7 @@
 
 .skills {
     width: 100%;
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
 .habilidades {
@@ -320,7 +319,7 @@
 .trabajos {
     width: 100%;
     height: 500px;
-    margin-top: 120px;
+    margin-top: 110px;
 }
 
 .infoSection {
@@ -390,6 +389,14 @@
 .img__net {
     display: flex;
     justify-content: center;
+}
+
+.action__net {
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 16px;
+    line-height: 30px;
 }
 
 .link__net {

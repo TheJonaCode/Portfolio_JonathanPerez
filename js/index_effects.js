@@ -1,5 +1,8 @@
 $(document).ready(function() {
 
+    //SCROLL EFFECTS
+    AOS.init();
+
     //NAVBAR SCROLL MENU
     var about = $('#miAbout').offset().top,
         trabajos = $('#miTrabajo').offset().top,
