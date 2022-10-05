@@ -85,6 +85,8 @@
 
 .prof__pic img {
     width: 100%;
+    height: 90%;
+    padding: 10px;
     vertical-align: auto;
     border-radius: 100%;
 }
@@ -161,12 +163,6 @@
     float: left;
 }
 
-.knowledge {
-    width: 50%;
-    height: 600px;
-    float: left;
-}
-
 .description p {
     font-family: 'Poppins', sans-serif;
 }
@@ -191,7 +187,7 @@
 .CV__button {
     width: 35%;
     height: 50px;
-    margin-top: 15px;
+    margin-top: 30px;
     border-width: 1px;
     border-radius: 5px;
     background-color: #3464d4;
@@ -218,6 +214,12 @@
 
 /*Conocimientos*/
 
+.knowledge {
+    width: 50%;
+    height: 600px;
+    float: left;
+}
+
 .my__knowledge {
     margin-top: 10%;
     font-size: 20px;
@@ -226,40 +228,37 @@
 
 .knowledge__div {
     width: 100%;
-    height: 35%;
+    height: 25%;
     margin-top: 8%;
     display: flex;
     justify-content: center;
 }
 
 .knowledge__element {
-    width: 30%;
+    width: 23%;
     height: 90%;
     margin: 10px;
 }
 
 .knowledge__div_2 {
     width: 100%;
-    height: 35%;
+    height: 25%;
     display: flex;
     justify-content: center;
 }
 
-.logo,
-.logo,
-.logo {
-    width: 100%;
-    height: 90%;
-}
-
-.logo,
-.logo {
+.knowledge_logo {
     width: 100%;
     height: 90%;
     padding: 10%;
 }
 
-.name,
+.knowledge__div_2 .knowledge_logo {
+    width: 90%;
+    height: 80%;
+    padding: 10%;
+}
+
 .action__net {
     width: 100%;
     font-family: 'Poppins', sans-serif;
