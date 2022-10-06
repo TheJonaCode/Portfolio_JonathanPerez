@@ -247,20 +247,20 @@
     justify-content: center;
 }
 
-.knowledge_logo {
+.knowledge__logo {
     width: 100%;
     height: 90%;
     padding: 10%;
     opacity: 0.8;
 }
 
-.knowledge__div_2 .knowledge_logo {
+.knowledge__div_2 .knowledge__logo {
     width: 90%;
     height: 80%;
     padding: 10%;
 }
 
-.knowledge_logo:hover {
+.knowledge__logo:hover {
     opacity: 1;
     transition-duration: 0.5s;
     padding: 0;
