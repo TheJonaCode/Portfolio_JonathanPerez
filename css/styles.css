@@ -329,7 +329,7 @@
 
 .projects {
     width: 100%;
-    height: 700px;
+    height: 550px;
     margin-top: 5%;
 }
 
@@ -342,8 +342,9 @@
 
 .first,
 .sec,
-.third {
-    width: 33.3%;
+.third,
+.four {
+    width: 25%;
     height: 100%;
 }
 
@@ -360,7 +361,7 @@
 .contacto {
     width: 100%;
     height: 300px;
-    margin-top: 480px;
+    margin-top: 375px;
 }
 
 .contacts {
@@ -436,7 +437,7 @@
 .footer {
     width: 100%;
     height: 70px;
-    margin-top: 90px;
+    margin-top: 60px;
 }
 
 .footer .copy__r {
