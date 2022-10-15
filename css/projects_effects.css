@@ -509,3 +509,26 @@ h1 span {
     transform: translate(0);
     opacity: 1;
 }
+
+
+/*Phones*/
+
+@media (max-width: 575.98px) {
+    /*Hover Proyecto*/
+    .portfolio-item__header {
+        font-size: 8px;
+        text-align: center;
+        margin: 1px;
+    }
+    .portfolio-item__subheader {
+        font-size: 6px;
+        margin: 1px;
+    }
+    .portfolio-item__link {
+        font-size: 6px;
+    }
+    .portfolio-item__link-block {
+        width: 12px;
+        height: 12px;
+    }
+}

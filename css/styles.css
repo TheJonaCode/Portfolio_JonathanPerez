@@ -139,7 +139,7 @@
 }
 
 
-/* ARTICULOS */
+/* CONTENIDO */
 
 .content {
     margin-top: 60px;
@@ -444,4 +444,189 @@
     font-size: 14px;
     font-family: 'Poppins', sans-serif;
     text-align: center;
+}
+
+
+/*Responsive Design*/
+
+
+/*Phones*/
+
+@media (max-width: 575.98px) {
+    html,
+    body {
+        max-width: 100% !important;
+        overflow-x: hidden !important;
+    }
+    /*VISUAl */
+    .visual {
+        height: 200px;
+        width: 100%;
+    }
+    .welcome {
+        width: 100%;
+        max-height: 200px;
+        height: 200px;
+    }
+    /*Menu - navegación*/
+    .menu {
+        display: none;
+    }
+    /*Welcome*/
+    .welcome__msg {
+        height: 180px;
+    }
+    .space__div {
+        width: 10%;
+    }
+    .profile__pic {
+        width: 30%;
+    }
+    .prof__pic img {
+        width: 90%;
+    }
+    .message {
+        width: 50%;
+    }
+    .presentation .home__title {
+        font-size: 16px;
+        line-height: 2px;
+    }
+    .home__title_primary,
+    .home__title_secondary {
+        font-size: 12px;
+        line-height: 2px;
+    }
+    /* CONTENIDO */
+    .content {
+        margin-top: 20px;
+    }
+    /* ABOUT */
+    /*Descripcion*/
+    .about {
+        height: 450px;
+    }
+    /*Descripcion*/
+    .description {
+        width: 100%;
+        height: 220px;
+    }
+    .description__title {
+        font-size: 16px;
+        margin-bottom: 2px;
+    }
+    .description__subtitle {
+        font-size: 12px;
+        line-height: 16px;
+        margin-bottom: 1px;
+    }
+    .description__content {
+        font-size: 12px;
+        line-height: 16px;
+        width: 100%;
+    }
+    .description__content .less_desc {
+        display: none;
+    }
+    .CV__button {
+        width: 30%;
+        height: 30px;
+    }
+    .CV__button .textButton {
+        padding-top: 5px;
+        font-size: 12px;
+    }
+    /*Conocimientos*/
+    .knowledge {
+        width: 100%;
+        height: 230px;
+    }
+    .my__knowledge {
+        font-size: 16px;
+        margin-bottom: 0;
+    }
+    .knowledge__div {
+        margin-top: 0;
+    }
+    .knowledge__element {
+        height: 100%;
+    }
+    .knowledge__logo {
+        height: 95%;
+    }
+    .knowledge__div_2 .knowledge__logo {
+        height: 90%;
+    }
+    /*Habilidades*/
+    .skills {
+        margin-top: 50px;
+        height: 350px;
+    }
+    .habilidades {
+        margin-top: 15px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .skill__element {
+        width: 100%;
+        height: 120px;
+    }
+    .skill__icon {
+        font-size: 14px;
+        line-height: 2px;
+    }
+    .skill__title {
+        font-size: 14px;
+        line-height: 2px;
+    }
+    .skill__description {
+        font-size: 12px;
+    }
+    /*Trabajos*/
+    .trabajos {
+        margin-top: 20px;
+        height: 270px;
+    }
+    .infoSection {
+        height: 10%;
+    }
+    .projects {
+        height: 220px;
+    }
+    /*Hover Proyecto*/
+    .portfolio-item__header {
+        font-size: 8px;
+    }
+    .portfolio-item__subheader {
+        font-size: 8px;
+    }
+    /*Contacto*/
+    .contacto {
+        margin-top: 45px;
+        height: 150px;
+    }
+    .contacts {
+        margin-top: 40px;
+    }
+    .space {
+        width: 5%;
+    }
+    .gmail,
+    .migit,
+    .linked {
+        width: 30%
+    }
+    .link__net {
+        font-size: 24px;
+    }
+    .action__net {
+        font-size: 12px;
+    }
+    /*Pie de página*/
+    .footer {
+        margin-top: 8px;
+    }
+    .footer .copy__r {
+        font-size: 8px;
+    }
 }
