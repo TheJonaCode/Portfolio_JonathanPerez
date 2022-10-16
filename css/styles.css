@@ -462,6 +462,7 @@
     .visual {
         height: 200px;
         width: 100%;
+        position: relative;
     }
     .welcome {
         width: 100%;
@@ -504,7 +505,7 @@
     /* ABOUT */
     /*Descripcion*/
     .about {
-        height: 450px;
+        height: 520px;
     }
     /*Descripcion*/
     .description {
@@ -539,27 +540,32 @@
     /*Conocimientos*/
     .knowledge {
         width: 100%;
-        height: 230px;
+        height: 300px;
     }
     .my__knowledge {
         font-size: 16px;
         margin-bottom: 0;
+        height: 10%;
     }
     .knowledge__div {
         margin-top: 0;
+        height: 20%;
+    }
+    .knowledge__div_2 {
+        height: 20%;
     }
     .knowledge__element {
         height: 100%;
     }
     .knowledge__logo {
-        height: 95%;
+        height: 100%;
     }
     .knowledge__div_2 .knowledge__logo {
-        height: 90%;
+        height: 100%;
     }
     /*Habilidades*/
     .skills {
-        margin-top: 50px;
+        margin-top: 0px;
         height: 350px;
     }
     .habilidades {
