@@ -37,10 +37,30 @@ $(document).ready(function() {
         }, 500);
     });
 
-    //Navbar Scroll Hide
+    //SCROLL ACTIVE EFFECT
     const menu = document.querySelector('.menu');
+    const li_about = document.querySelector('#btn-about');
+    const li_hab = document.querySelector('#btn-habilidades');
+    const li_work = document.querySelector('#btn-trabajos');
+    const li_contact = document.querySelector('#btn-contacto');
 
     window.addEventListener('scroll', function() {
         menu.classList.toggle('menu__scroll', window.scrollY > 200)
+    });
+
+    window.addEventListener('scroll', function() {
+        li_about.classList.toggle('active', window.scrollY > 500 && window.scrollY < 1200)
+    });
+
+    window.addEventListener('scroll', function() {
+        li_hab.classList.toggle('active', window.scrollY > 1200 && window.scrollY < 1600)
+    });
+
+    window.addEventListener('scroll', function() {
+        li_work.classList.toggle('active', window.scrollY > 1600 && window.scrollY < 2200)
+    })
+
+    window.addEventListener('scroll', function() {
+        li_contact.classList.toggle('active', window.scrollY > 2200)
     })
 });

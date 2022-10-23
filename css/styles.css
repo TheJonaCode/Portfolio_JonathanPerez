@@ -16,7 +16,8 @@
 }
 
 .menu .active {
-    color: #BB001B;
+    color: #90e0ef;
+    text-shadow: 1px 1px 1px #023e8a;
 }
 
 .menu a {
