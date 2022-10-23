@@ -2,13 +2,21 @@
 
 .menu {
     overflow: hidden;
-    background-color: #212529;
     position: fixed;
     top: 0;
     width: 100%;
     display: flex;
     justify-content: end;
     z-index: 999;
+    transition: all 0.5s ease;
+}
+
+.menu__scroll {
+    background-color: #212529;
+}
+
+.menu .active {
+    color: #BB001B;
 }
 
 .menu a {

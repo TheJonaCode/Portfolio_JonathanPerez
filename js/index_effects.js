@@ -37,4 +37,10 @@ $(document).ready(function() {
         }, 500);
     });
 
+    //Navbar Scroll Hide
+    const menu = document.querySelector('.menu');
+
+    window.addEventListener('scroll', function() {
+        menu.classList.toggle('menu__scroll', window.scrollY > 200)
+    })
 });
