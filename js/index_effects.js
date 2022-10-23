@@ -19,14 +19,14 @@ $(document).ready(function() {
     $('#btn-habilidades').on('click', function(e) {
         e.preventDefault();
         $('html, body').animate({
-            scrollTop: habilidades - 150
+            scrollTop: habilidades - 200
         }, 500);
     });
 
     $('#btn-trabajos').on('click', function(e) {
         e.preventDefault();
         $('html, body').animate({
-            scrollTop: trabajos - 110
+            scrollTop: trabajos - 190
         }, 500);
     });
 
