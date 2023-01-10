@@ -63,4 +63,19 @@ $(document).ready(function() {
     window.addEventListener('scroll', function() {
         li_contact.classList.toggle('active', window.scrollY > 2200)
     })
+
+    //DARK MODE
+    const activeButton = document.querySelector('.dark__mode');
+    const page = document.querySelector('.page');
+    const pageText = document.getElementsByClassName('textDark');
+    const skillCode = document.querySelector('.skill__code');
+
+    activeButton.addEventListener("click", function() {
+        activeButton.classList.toggle("no__dark__mode")
+        page.classList.toggle("pageDark");
+        skillCode.classList.toggle("skill__codeDark");
+        for (let i = 0; i < pageText.length; i++) {
+            pageText[i].classList.toggle("darkText");
+        }
+    });
 });

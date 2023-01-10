@@ -1,0 +1,60 @@
+/*Dark Mode Button*/
+
+.switch__mode {
+    /*Position*/
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    z-index: 999;
+    /*Style*/
+    width: 50px;
+    height: 50px;
+    margin-top: 535px;
+    margin-left: 20px;
+    border-width: 1px;
+    border-radius: 5px;
+}
+
+.switch__mode .darkButton {
+    font-size: 24px;
+    padding-top: 11px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: #fff;
+}
+
+.dark__mode {
+    background-color: #2f3e46;
+}
+
+.dark__mode:hover {
+    background-color: #495057;
+    transition-duration: 0.3s;
+}
+
+.no__dark__mode {
+    background-color: #073b4c;
+}
+
+.no__dark__mode:hover {
+    background-color: #15616d;
+    transition-duration: 0.3s;
+}
+
+
+/*Changes*/
+
+.pageDark {
+    background-color: #212529;
+}
+
+.darkText {
+    color: #fff;
+}
+
+.skill__codeDark {
+    color: #c7f9cc;
+}

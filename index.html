@@ -9,8 +9,9 @@
     <!--FavIcon-->
     <link rel="shortcut icon" href="./images/logo_jp.png">
     <!--STYLES CSS-->
-    <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/projects_effects.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/dark.css">
     <!--Fuentes-->
     <link href="https://fonts.googleapis.com/css?family=Poppins:400,400i,700,700i" rel="stylesheet">
     <!--Bootstrap-->
@@ -21,7 +22,14 @@
     <link rel="stylesheet" href="./css/all.css">
 </head>
 
-<body style="background-color: #f4f6f6;">
+<body class="page">
+
+    <!-- Dark Mode -->
+    <div class="switch__mode dark__mode">
+        <a class="darkButton">
+            <i class="fa-solid fa-moon icon"></i>
+        </a>
+    </div>
 
     <!-- Navegación -->
     <div class="menu" data-aos="fade-left">
@@ -58,15 +66,14 @@
             </div>
         </div>
     </div>
-
     <!-- Contenido -->
     <div class="container-sm content">
         <div class="about">
             <!--About Me-->
             <div class="description sectionNav" id="miAbout">
-                <p class="description__title">Sobre mí <br></p>
-                <p class="description__subtitle ">Soy Jonathan Perez Ordoñez, <br> Ingeniero en Desarrollo de Software </p>
-                <p class="description__content ">
+                <p class="textDark description__title">Sobre mí <br></p>
+                <p class="textDark description__subtitle ">Soy Jonathan Perez Ordoñez, <br> Ingeniero en Desarrollo de Software </p>
+                <p class="textDark description__content ">
                     <br> Soy un desarrollador especializado en Front - End con experiencia en la creación de sitios web y aplicaciones web.
                     <br> <span class="less_desc"> Siempre </span> busco mejorar mis habilidades y seguir creciendo profesionalmente para poder hacer aportes valiosos en el grupo de trabajo del que formo parte. <span class="less_desc"> Por lo tanto, utilizo las herramientas
                     necesarias para aumentar la productividad y mejorar la comunicación dentro de nuestro equipo de desarrollo. </span>
@@ -78,7 +85,7 @@
             </div>
             <!--Conocimientos-->
             <div class="knowledge">
-                <p class="my__knowledge ">Conocimientos</p>
+                <p class="textDark my__knowledge ">Conocimientos</p>
                 <div class="knowledge__div ">
                     <div class="knowledge__element ">
                         <img src="./images/knowledges/html.png " class="knowledge__logo">
@@ -132,35 +139,35 @@
         <!--Habilidades-->
         <div class="skills sectionNav" id="misHabilidades" data-aos="fade-up">
             <div class="infoSection ">
-                <p class="description__title ">Mis habilidades<br></p>
-                <p class="description__subtitle ">Algunas de las habilidades con las que cuento.</p>
+                <p class="textDark description__title ">Mis habilidades<br></p>
+                <p class="textDark description__subtitle ">Algunas de las habilidades con las que cuento.</p>
             </div>
             <div class="habilidades ">
                 <div class="skill__element ">
                     <p class="skill__icon "><i class="fa-solid fa-code skill__code "></i></p>
-                    <p class="skill__title ">Programación</p>
-                    <p class="skill__description">
+                    <p class="textDark skill__title ">Programación</p>
+                    <p class="textDark skill__description">
                         Experiencia en desarrollo Front End. Creación y diseño de distintas páginas web.
                     </p>
                 </div>
                 <div class="skill__element ">
                     <p class="skill__icon "><i class="fa-solid fa-pen-nib skill__design "></i></p>
-                    <p class="skill__title ">Diseño</p>
-                    <p class="skill__description ">
+                    <p class="textDark skill__title ">Diseño</p>
+                    <p class="textDark skill__description ">
                         Uso de las principales aplicaciones de diseño y edición de imagen y video.
                     </p>
                 </div>
                 <div class="skill__element ">
                     <p class="skill__icon "><i class="fa-solid fa-server skill__db "></i></p>
-                    <p class="skill__title ">Manejo de DB</p>
-                    <p class="skill__description ">
+                    <p class="textDark skill__title ">Manejo de DB</p>
+                    <p class="textDark skill__description ">
                         Conocimiento en bases de datos relacionales y no relacionales.
                     </p>
                 </div>
                 <div class="skill__element ">
                     <p class="skill__icon "><i class="fa-solid fa-laptop-code skill__tec "></i></p>
-                    <p class="skill__title ">Manejo de herramientas</p>
-                    <p class="skill__description ">
+                    <p class="textDark skill__title ">Manejo de herramientas</p>
+                    <p class="textDark skill__description ">
                         Me enfocó en utilizar las aplicaciones y software mas demandadas e importantes para un proyecto.
                     </p>
                 </div>
@@ -170,8 +177,8 @@
         <!--Mis trabajos-->
         <div class="trabajos sectionNav" id="miTrabajo" data-aos="fade-up">
             <div class="infoSection ">
-                <p class="description__title ">Mi trabajo<br></p>
-                <p class="description__subtitle ">Aquí se encuentran algunos de los proyectos que he realizado!</p>
+                <p class="textDark description__title ">Mi trabajo<br></p>
+                <p class="textDark description__subtitle ">Aquí se encuentran algunos de los proyectos que he realizado!</p>
             </div>
             <div class="projects ">
                 <div class="projects__row ">
@@ -353,26 +360,26 @@
         <!--Contacto-->
         <div class="contacto sectionNav" id="miContacto" data-aos="fade-up">
             <div class="infoSection ">
-                <p class="description__title ">Contáctame!<br></p>
-                <p class="description__subtitle ">Contáctame si te interesa que trabajemos juntos.</p>
+                <p class="textDark description__title ">Contáctame!<br></p>
+                <p class="textDark description__subtitle ">Contáctame si te interesa que trabajemos juntos.</p>
             </div>
             <div class="contacts ">
                 <div class="space "></div>
                 <div class="gmail ">
                     <div class="img__net ">
-                        <a href="mailto:jonathanperezord@gmail.com?Subject=Trabajemos! " class="link__net " title="Gmail ">
+                        <a href="mailto:jonathanperezord@gmail.com?Subject=Trabajemos! " class="textDark link__net " title="Gmail ">
                             <i class="fa-regular fa-envelope textAwesome "></i>
                         </a>
                     </div>
-                    <p class="action__net ">Correo</p>
+                    <p class="textDark action__net ">Correo</p>
                 </div>
                 <div class="migit ">
                     <div class="img__net ">
-                        <a href="https://github.com/TheJonaCode " target="_blank " class="link__net " title="GitHub ">
-                            <i class="fa-brands fa-github "></i>
+                        <a href="https://github.com/TheJonaCode " target="_blank " class="link__net" title="GitHub ">
+                            <i class="fa-brands fa-github"></i>
                         </a>
                     </div>
-                    <p class="action__net ">Sígueme</p>
+                    <p class="textDark action__net ">Sígueme</p>
                 </div>
                 <div class="linked ">
                     <div class="img__net ">
@@ -380,7 +387,7 @@
                             <i class="fa-brands fa-linkedin-in logoAwesome "></i>
                         </a>
                     </div>
-                    <p class="action__net ">Contáctame</p>
+                    <p class="textDark action__net ">Contáctame</p>
                 </div>
                 <div class="space "></div>
             </div>
@@ -388,7 +395,7 @@
 
         <!--Footer - Pie de página-->
         <div class="footer ">
-            <p class="copy__r ">Copyright © 2022. Jonathan Perez Ordoñez
+            <p class="textDark copy__r">Copyright © 2022. Jonathan Perez Ordoñez
                 <br>All Rights Reserved</p>
         </div>
 
