@@ -66,6 +66,7 @@ $(document).ready(function() {
 
     //DARK MODE
     const activeButton = document.querySelector('.dark__mode');
+
     const page = document.querySelector('.page');
     const pageText = document.getElementsByClassName('textDark');
     const skillCode = document.querySelector('.skill__code');
@@ -78,4 +79,49 @@ $(document).ready(function() {
             pageText[i].classList.toggle("darkText");
         }
     });
+
+    /*
+    //LANGUAGE SWITCH
+    var switch__language = document.querySelector('input[type="checkbox"]');
+    //Elements
+    const homeTitlePrim = document.querySelector('.home__title_primary');
+    const homeTitle = document.querySelector('.home__title');
+    const homeTitleSec = document.querySelector('.home__title_secondary');
+    const descTitle = document.querySelector('.description__title');
+    const descSubtitle = document.querySelector('.description__subtitle');
+    const descContent = document.querySelector('.description__content');
+    const myTextButton = document.querySelector('.textButton');
+
+    switch__language.addEventListener('change', function() {
+        if (switch__language.checked) {
+            pageEng();
+        } else {
+            pageEsp();
+        }
+    });
+
+    function pageEng() {
+        li_about.innerHTML = "About";
+        li_hab.innerHTML = "Skills";
+        li_work.innerHTML = "Projects";
+        li_contact.innerHTML = "Contact";
+        homeTitlePrim.innerHTML = "Hello!";
+        homeTitle.innerHTML = "I'm Jonathan Perez";
+        homeTitleSec.innerHTML = "Software Developer Jr.";
+        descTitle.innerHTML = "About Me";
+        descSubtitle.innerHTML = "Jonathan Perez Ordoñez, Software Developer";
+        descContent.innerHTML = "I am a developer specialized in Front - End with experience in creating websites and web applications. I am always looking to improve my skills and keep growing professionally in order to make valuable contributions in the work group I am part of. Therefore, I use the necessary tools to increase productivity and improve communication within our development team.";
+        myTextButton.innerHTML = "Download CV";
+    }
+
+    function pageEsp() {
+        li_about.innerHTML = "Sobre mí";
+        li_hab.innerHTML = "Habilidades";
+        li_work.innerHTML = "Proyectos";
+        li_contact.innerHTML = "Contacto";
+        homeTitlePrim.innerHTML = "¡Hola!";
+        homeTitle.innerHTML = "Soy Jonathan Perez";
+        homeTitleSec.innerHTML = "Ing. en Desarrollo de Software";
+        descSubtitle.innerHTML = "Soy Jonathan Perez Ordoñez, Ingeniero en Desarrollo de Software";
+    } */
 });
